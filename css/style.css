@@ -1,0 +1,228 @@
+/* Import Google Web fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+body {
+    background: #fff;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+
+/* a few tweaks here and there */
+nav {
+    height: 235px;
+    width: 60px;
+    background: rgba(0,0,0,.7);
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 100px;
+}
+nav a {
+    float: right;
+    margin: 0 0.5em;
+  }
+h1 {
+  font-size: 200px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  top: 50%;
+  left: 50%;
+  color:#fff;
+  position: absolute;
+  width: auto;
+  margin: auto;
+  text-shadow: 0 0 30px #000000;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  top: 30%;
+  left: 50%;
+  color:#fff;
+  position: absolute;
+  width: auto;
+  margin: auto;
+  text-shadow: 0 0 30px #000000;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h4 {
+  font-size: 95px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  top: 40%;
+  left: 79%;
+  color:#fff;
+  position: absolute;
+  width: 40%;
+  margin: auto;
+  text-shadow: 0 0 100px #000000;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h5 {
+  font-size: 40px;
+  text-align: right;
+  font-family: 'Amatic SC', cursive;
+  top: 70%;
+  left: 68%;
+  color:#fff;
+  position: absolute;
+  width: 50%;
+  margin: auto;
+  text-shadow: 0 0 50px #000000;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+figure {
+    margin: 0;
+    /* resets the left margin in the figure*/
+}
+
+figure img {
+    max-width: 100%;
+    /* images will shrink to fit inside the main conent column*/
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+}
+
+blockquote {
+    width: 66%;
+    margin: 1em auto;
+    background: #ddd;
+    padding: 1em;
+    font-size: 1.25em;
+    text-align: center;
+    color: #696969;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+}
+
+
+/* Styling the full-page background headers */
+
+.image_bg, .color_bg {
+    height: 100vh;
+    /* this sets the height of each full width image section to that of the viewport.*/
+    position: relative;
+    /*display: flex;  */
+    background-position: center !important;
+}
+
+
+/* the text inside the headers */
+
+
+
+
+header a {
+    color: #ffff0f;
+}
+
+
+/* Styles for individual header sections by class name. */
+
+.title {
+    background: url(../images/lemoneddit.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* the background image doesn't move when scrolling*/
+}
+
+
+/* the above style gets copied for every new section header with background image. Each new copy has a new class name. */
+
+.idea {
+    background: url(../images/Surroundedit.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.journey {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.future {
+  background: url(../images/flowersedit.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+.container {
+  display: flex;
+
+
+}
+.item {
+  padding: 0.5em;
+  left: 20%;
+
+
+
+}
+.item img {
+  width: 33vh;
+  height: 90vh;
+  right: 80%;
+
+
+}
+/* Content sections */
+
+.content {
+    margin: 0 auto;
+    padding: 1em 20%;
+    font-family: 'Playfair Display', serif;
+    /* this in-effect sets the content section's width e.g. 20% = 60% width. */
+}
+
+footer {
+    background:grey;
+    height: 110px;
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    padding: 1em;
+}
